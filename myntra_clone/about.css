@@ -1,0 +1,39 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #b3eced;
+    margin: 0;
+    padding: 20px;
+}
+
+.about-container {
+    background-color: rgb(79, 96, 169);
+    border-radius: 10px;
+    padding: 100px;
+    max-width: 800px;
+    margin: auto;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    
+}
+
+.about-container:hover {
+    transform: scale(1.02);
+}
+
+h1 {
+    color: #000000;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    line-height: 1.7;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+/* @media (max-width: 600px) {
+    .about-container {
+        padding: 20px;
+    }
+} */
